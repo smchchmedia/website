@@ -1323,6 +1323,13 @@ input[type="text"] {
   padding-bottom: 2em !important;
 }
 
+.grid {
+  display: grid
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1,minmax(0,1fr))
+}
+
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;
@@ -1341,5 +1348,6 @@ input[type="text"] {
 .js .animate-box {
   opacity: 0;
 }
+
 
 /*# sourceMappingURL=style.css.map */
