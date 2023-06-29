@@ -581,6 +581,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-bible-verse,
 #fh5co-news,
 #fh5co-events,
+#fh5co-catechism,
 #fh5co-counter,
 #fh5co-footer{
 	padding: 5em 3em;
@@ -963,8 +964,12 @@ input[type="text"] {
 		}
 	}
 
-	h2, h3{
+	h2, h3, h4{
 		color: rgba($brand-white,1) !important;
+	}
+	h4{
+		font-size: 14px;
+		line-height: auto;
 	}
 	h3{
 		font-size: 18px;

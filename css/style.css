@@ -504,6 +504,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-bible-verse,
 #fh5co-news,
 #fh5co-events,
+#fh5co-catechism,
 #fh5co-counter,
 #fh5co-footer {
   padding: 5em 3em;
@@ -517,6 +518,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-bible-verse,
   #fh5co-news,
   #fh5co-events,
+  #fh5co-catechism,
   #fh5co-counter,
   #fh5co-footer {
     padding: 3em 1em;
@@ -596,6 +598,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .news {
   margin-bottom: 40px;
+}
+
+.church-font{
+  font-size:  28px;
 }
 
 .sermon-entry {
