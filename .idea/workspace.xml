@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d04b5e4-a26f-4c1e-97a6-ea7dd9ce728a" name="Changes" comment="Changes to Index Page and style - 3">
+    <list default="true" id="8d04b5e4-a26f-4c1e-97a6-ea7dd9ce728a" name="Changes" comment="Changes to Index Page and style - 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ministries.html" beforeDir="false" afterPath="$PROJECT_DIR$/ministries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/bootstrap/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +25,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688111320065</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes to Index Page and style - 3">
+      <created>1688111643381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688111643381</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Changes to Index Page and style - 4">
+      <created>1688111674711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688111674711</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +101,11 @@
     <MESSAGE value="Changes to Index Page and style" />
     <MESSAGE value="Changes to Index Page and style - 2" />
     <MESSAGE value="Changes to Index Page and style - 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to Index Page and style - 3" />
+    <MESSAGE value="Changes to Index Page and style - 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to Index Page and style - 4" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

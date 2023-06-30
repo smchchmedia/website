@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		font-family: $font-secondary;
 		display: block;
 		border-bottom: 1px solid rgba($brand-black,.09);
-		@media screen and(max-width: $screen-sm){
+		@media screen and (max-width: $screen-sm){
 			border-bottom: none;
 			padding: .1em 0;
 		}
@@ -691,10 +691,10 @@ h1, h2, h3, h4, h5, h6, figure {
 	overflow: hidden;
 	margin-bottom: 20px;
 	z-index: 1;
-	@media screen and(max-width: $screen-sm){
+	@media screen and (max-width: $screen-sm){
 		height: 400px;
 	}
-	@media screen and(max-width: $screen-xs){
+	@media screen and (max-width: $screen-xs){
 		height: 270px;
 	}
 	&:before{
@@ -948,7 +948,7 @@ input[type="text"] {
 	.fh5co-footer-links {
 		padding: 0;
 		margin: 0;
-		@media screen and(max-width: $screen-sm){
+		@media screen and (max-width: $screen-sm){
 			margin-bottom: 30px;
 		}
 		li {
@@ -1011,7 +1011,7 @@ input[type="text"] {
 	display: none;
 	@include translateX(270px);
 	@include transition(.5s);
-	@media screen and(max-width: $screen-sm){
+	@media screen and (max-width: $screen-sm){
 		display: block;
 	}
 	.offcanvas & {
@@ -1384,4 +1384,9 @@ input[type="text"] {
 	.js & {
 		opacity: 0;
 	}
+}
+
+.church-font {
+ color: #721E20 !important;
+ font-size: 30px;
 }
