@@ -64,7 +64,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   font-weight: normal;
@@ -114,10 +114,10 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav #fh5co-logo {
-  font-size: 45px;
+  font-size: 26px;
   margin: 0;
-  padding: 1em 0;
-  font-family: "Libre Baskerville", serif;
+  padding: 0.3em 0;
+  font-family: "Source Sans Pro", sans-serif;
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
@@ -436,7 +436,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   color: white;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
   margin-bottom: 20px;
@@ -538,7 +538,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .dailyVerse {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: italic;
   color: rgba(0, 0, 0, 0.4);
 }
@@ -697,7 +697,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .events-entry .date {
   display: block;
   margin-bottom: 10px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: italic;
 }
 
@@ -717,7 +717,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   padding: 0;
   font-size: 20px;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: italic;
 }
 @media screen and (max-width: 768px) {
@@ -761,7 +761,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   font-weight: 400;
   margin-bottom: .3em;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 .fh5co-counters .fh5co-counter-label {
   font-size: 12px;
@@ -823,7 +823,7 @@ input[type="text"] {
   margin-bottom: 30px;
 }
 .form-group .btn-modify {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -864,7 +864,7 @@ input[type="text"] {
   font-size: 30px;
   margin-bottom: 20px;
   line-height: auto;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #000;
 }
 .fh5co-heading span {
@@ -877,7 +877,7 @@ input[type="text"] {
 
 #fh5co-footer {
   margin-top: 20px !important;
-  background: #586E72;
+  background: #105F7D;
   color: rgba(255, 255, 255, 0.7) !important;
 }
 #fh5co-footer a {
@@ -1152,7 +1152,7 @@ input[type="text"] {
 }
 
 .btn {
-  margin-right: 4px;
+  margin-right: 4px;s
   margin-bottom: 4px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
@@ -1361,6 +1361,7 @@ input[type="text"] {
 
 .church-font {
  color: #721E20 !important;
+ font-size: 30px;
 }
 
 

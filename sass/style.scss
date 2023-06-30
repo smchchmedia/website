@@ -195,9 +195,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 	}
 	#fh5co-logo {
-		font-size: 45px;
+		font-size: 30px;
 		margin: 0;
-		padding: 1em 0;
+		padding: 0.3em 0;
 		font-family: $font-secondary;
 		display: block;
 		border-bottom: 1px solid rgba($brand-black,.09);
@@ -940,7 +940,7 @@ input[type="text"] {
 
 #fh5co-footer {
 	margin-top: 20px !important;
-	background: #586E72;
+	background: #105F7D;
 	color: rgba($brand-white,.7) !important;
 	a{
 		color: rgba($brand-white,1) !important;
