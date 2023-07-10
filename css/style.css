@@ -1401,5 +1401,51 @@ input[type=text] {
 .widgets_div .text_div span+span {
   font-size: 14px;
 }
+.updates {
+  position: relative;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  padding: 0.5rem 1rem;
+}
 
+.updates .update_body {
+  background: hsl(0, 0%, 95%);
+  margin: auto;
+  height: 330px;
+  color: hsl(0, 0%, 20%);
+  border: 1px solid hsl(240,2%,63%);
+  border-radius: 1.5rem;
+  box-shadow: 4px 3px 5px grey;
+}
+
+.updates h3 {
+  font-size: 14px;
+  color: #721E20;
+}
+.updates h3 a {
+  color: #ffffff;
+}
+
+.updates .update_header {
+  background: hsl(240,2%,63%);
+  height: 30px;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  color: hsl(300, 50%, 95%);
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+.updates .update_title {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+.updates .updates_content {
+  margin: 1.5rem;
+}
+
+.tab2 {
+  tab-size: 4;
+}
 /*# sourceMappingURL=style.css.map */
