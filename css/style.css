@@ -1361,6 +1361,13 @@ input[type=text] {
   font-size: 16px;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .widgets_div {
   padding: 0.1em 0;
   font-family: "Libre Baskerville", serif;
@@ -1412,7 +1419,7 @@ input[type=text] {
 .updates .update_body {
   background: hsl(0, 0%, 95%);
   margin: auto;
-  height: 330px;
+  height: 350px;
   color: hsl(0, 0%, 20%);
   border: 1px solid hsl(240,2%,63%);
   border-radius: 1.5rem;
@@ -1444,4 +1451,10 @@ input[type=text] {
 .updates .updates_content {
   margin: 1.5rem;
 }
+
+.updates .updates_content img{
+  max-height: 310px;
+  display: inline-block; /* remove extra space below image */
+}
+
 /*# sourceMappingURL=style.css.map */
