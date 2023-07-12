@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /gallery/
+
+Sitemap: https://syromalabarchristchurch.org.nz/sitemap.xml
