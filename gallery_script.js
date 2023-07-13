@@ -41,12 +41,13 @@ fetch(url, {
             folderDiv.appendChild(mainImageDiv);
             
             
-            let imageThumbs = document.createElement('div');
-            imageThumbs.classList.add("row")
+            let imageThumbs = document.createElement('ul');
+            imageThumbs.id = "carousel"
 
             photos.map(function(imageObject) {
+                let imgItem = document.createElement("div");
+                imgItem.classList.add("slide");
                 let thumb = document.createElement("img");
-                thumb.classList.add("col-md-2");
                 thumb.classList.add("thumb");
                 thumb.src = image_url_prefix + imageObject.img_id;
                 thumb.alt = "Photo " + imageObject.img_id;
@@ -59,7 +60,8 @@ fetch(url, {
                         mainImageElement.alt = this.alt;
                     }
                 );
-                imageThumbs.appendChild(thumb);
+                imgItem.appendChild(thumb);
+                imageThumbs.appendChild(imgItem);
             });
             folderDiv.appendChild(imageThumbs)
 
