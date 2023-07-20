@@ -3,6 +3,23 @@ const folderlist = document.createDocumentFragment();
 const url = "https://script.google.com/macros/s/AKfycbz6DkGEvI58ZTUN-TtmHyYavY8fF_hiXQfsYPimRZaERIMbUa-OF4ejiBUBE6hrXfcC/exec";
 const image_url_prefix = "https://drive.google.com/uc?export=view&id="
 
+
+let loaderBg = document.getElementById("loading-bg");
+
+// showing loading
+function displayLoading() {
+    loaderBg.classList.add("display");
+    // to stop loading after some time
+    setTimeout(() => {
+        loaderBg.classList.remove("display");
+    }, 5000);
+}
+
+function hideLoading() {
+    loaderBg.classList.remove("display");
+}
+
+displayLoading()
 fetch(url, {
     redirect: "follow",
     method: "GET",
@@ -15,6 +32,7 @@ fetch(url, {
     })
     .then((out) => {
         let folders = out.data;
+        hideLoading()
         console.log(out);
         folders.map(function(folder) {
             console.log(folder.folder_name);

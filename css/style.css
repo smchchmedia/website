@@ -1476,6 +1476,7 @@ input[type=text] {
 }
 
 .gallery .gallery_header {
+  font-size: 16px;
   height: 30px;
   text-align: center;
   padding: 1rem 0.5rem;
@@ -1512,4 +1513,34 @@ input[type=text] {
   margin-bottom: 5px;
 }
 
+#loading-bg {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 9999;
+  visibility: hidden;
+}
+
+
+#loading {
+  position: fixed;
+  background-size: 40px;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: url(../images/chch_logo.png) center no-repeat #fff;
+  animation: spin 1s infinite linear;
+}
+#loading-bg.display {
+  height: 300px;
+  visibility: visible;
+}
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
 /*# sourceMappingURL=style.css.map */
