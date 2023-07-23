@@ -1,9 +1,12 @@
 
 TITLE: 
-St Thomas Syromalabar community
+Syromalabar community
 
 AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+DESIGNED & DEVELOPED by 
+Sreeja Jose
+Preethi Valsalan
+Sanjoe Ouseph
 
 
 
