@@ -1,0 +1,14 @@
+{
+    "events":[
+        {
+            "date":"6 Aug, 2023",
+            "name":"Bible Quiz Final round, Christchurch",
+            "image_url":"images/events/bible_quiz.jpeg"
+        },
+        {
+            "date":"28 July, 2023",
+            "name":"St. Alphonsa Feast Celebration",
+            "image_url":"images/events/alphonsa_feast.jpeg"
+        }
+    ]
+}
