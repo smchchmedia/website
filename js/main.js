@@ -49,8 +49,12 @@
 		$('#page').prepend('<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
 		$('#fh5co-offcanvas').append(clone1);
+		
 		var clone2 = $('.menu-2 > ul').clone();
 		$('#fh5co-offcanvas').append(clone2);
+
+		var clone3 = $('.menu-1 > a').clone();
+		$('#fh5co-offcanvas').append(clone3);
 
 		$('#fh5co-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
 		$('#fh5co-offcanvas')

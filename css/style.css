@@ -514,6 +514,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-safeguarding,
 #fh5co-skilldev,
 #fh5co-gallery,
+#fh5co-donate,
 #fh5co-smym,
 #fh5co-nurses,
 #fh5co-counter,
@@ -1204,6 +1205,11 @@ input[type=text] {
   color: #721E20;
   border: 2px solid #721E20;
 }
+.btn-primary.btn-outline.btn-header{
+  border-radius: 14px;
+  padding: 4px 10px;
+}
+
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #721E20;
   color: #fff;
